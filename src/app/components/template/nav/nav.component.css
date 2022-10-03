@@ -1,0 +1,17 @@
+.container {
+    height: 85%;
+    background-color: lightslategray;
+}
+
+mat-sidenav     {
+    background-color: #212121;;
+}
+
+mat-nav-list {
+    color: antiquewhite
+}
+
+i {
+    padding-right: 0.6rem;
+    color: antiquewhite;
+}
