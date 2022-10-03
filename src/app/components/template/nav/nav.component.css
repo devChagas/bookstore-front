@@ -1,10 +1,10 @@
 .container {
     height: 85%;
-    background-color: lightslategray;
+    background-color: #3f3f3f;;
 }
 
 mat-sidenav     {
-    background-color: #212121;;
+    background-color: #696969;
 }
 
 mat-nav-list {

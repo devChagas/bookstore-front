@@ -1,0 +1,25 @@
+mat-card {
+    background-color: #696969;
+    width: 95%;
+    margin: 1rem auto;
+}
+
+.title {
+    color: antiquewhite;
+}
+
+.subtitle {
+    color: antiquewhite;
+}
+
+@media(max-width: 450px) {
+    .home {
+        width: 70%;
+    }
+}
+
+@media(max-width: 770px) {
+    .home {
+        width: 90%;
+    }
+}
