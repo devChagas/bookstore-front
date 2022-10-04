@@ -13,11 +13,11 @@
     color: rgb(210, 198, 181);
 }
 
+
 button {
     margin-bottom: 1rem;
-    background-color: transparent;
-    color: rgba(255, 0, 0, 0.668);
-    
+    background-color: #2f2f2f;
+    color: green;
 }
 
 .table {

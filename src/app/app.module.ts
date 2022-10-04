@@ -19,9 +19,11 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatCardModule} from '@angular/material/card';
 import {MatTableModule} from '@angular/material/table';
 import {MatButtonModule} from '@angular/material/button';
-
-
-
+import {MatInputModule} from '@angular/material/input';
+import {MatSnackBarModule} from '@angular/material/snack-bar';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {FormsModule} from '@angular/forms';
+import { CategoriaCreateComponent } from './components/views/categoria/categoria-create/categoria-create.component';
 
 
 
@@ -32,7 +34,8 @@ import {MatButtonModule} from '@angular/material/button';
     FooterComponent,
     NavComponent,
     HomeComponent,
-    CategoriaReadComponent
+    CategoriaReadComponent,
+    CategoriaCreateComponent
   ],
   imports: [
     BrowserModule,
@@ -44,8 +47,12 @@ import {MatButtonModule} from '@angular/material/button';
     MatIconModule,
     MatCardModule,
     MatTableModule,
+    MatInputModule,
     MatButtonModule,
-    HttpClientModule
+    MatFormFieldModule,
+    MatSnackBarModule,
+    FormsModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
