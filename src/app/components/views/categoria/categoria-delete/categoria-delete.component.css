@@ -1,0 +1,40 @@
+button {
+    margin-bottom: 1rem;
+    background-color: #2f2f2f;
+    color: green;
+    margin-right: 0.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+mat-form-field {
+    color: antiquewhite;
+}
+
+form {
+    text-align: center;
+    width: 70%;
+    margin: 2rem auto 0 auto;
+
+}
+
+h1 {
+    color: antiquewhite;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 3rem;
+}
+
+.form {
+    width: 100%;
+}
+
+.buttons {
+    width: 100%;
+    text-align: start;
+}
+
+.cancel{
+    color: red;
+    margin-right: 0.5rem;
+}
