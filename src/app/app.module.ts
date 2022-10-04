@@ -26,6 +26,7 @@ import {FormsModule} from '@angular/forms';
 import { CategoriaCreateComponent } from './components/views/categoria/categoria-create/categoria-create.component';
 import { CategoriaDeleteComponent } from './components/views/categoria/categoria-delete/categoria-delete.component';
 import { CategoriaUpdateComponent } from './components/views/categoria/categoria-update/categoria-update.component';
+import { LivroReadAllComponent } from './components/views/livro/livro-read-all/livro-read-all.component';
 
 
 
@@ -39,7 +40,8 @@ import { CategoriaUpdateComponent } from './components/views/categoria/categoria
     CategoriaReadComponent,
     CategoriaCreateComponent,
     CategoriaDeleteComponent,
-    CategoriaUpdateComponent
+    CategoriaUpdateComponent,
+    LivroReadAllComponent
   ],
   imports: [
     BrowserModule,
