@@ -1,0 +1,19 @@
+form {
+    width: 90%;
+    margin: auto;
+}
+
+.home {
+    margin: 1rem auto;
+    background-color: #696969;
+    text-align: center;
+    color: antiquewhite;
+}
+
+button {
+    width: 100%;
+}
+
+.texto {
+    text-align: justify;
+}
